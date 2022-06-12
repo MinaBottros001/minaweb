@@ -1,7 +1,5 @@
-FROM httpd:latest
-RUN apt-get update
+FROM minabottros001/minaweb:latest
 
-COPY index.html /usr/local/apache2/htdocs/index.html
 
 
 
